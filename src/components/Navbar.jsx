@@ -11,6 +11,9 @@ import {
   FaBook,
   FaPhone,
   FaWhatsapp,
+  FaMicrosoft,
+  FaProductHunt,
+  FaCloudDownloadAlt,
 
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -118,6 +121,14 @@ const Navbar = () => {
               href={info.contac[0].url}
             >
               Whatsapp <FaWhatsapp size={30} />
+            </a>
+          </li>
+          <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-red-500'>
+            <a
+              className='flex justify-between items-center w-full px-3 text-white' target="_blank"
+              href={info.contac[1].url}
+            >
+              Instaladores <FaCloudDownloadAlt size={30} />
             </a>
           </li>
         </ul>
