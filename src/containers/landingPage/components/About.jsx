@@ -29,8 +29,8 @@ const About = () => {
             Sobre nosotros
           </p>
         </div>
-        <div className='h-full mx-auto max-w-[1000px] md:mx-auto md:px-8 md:flex md:flex-col md:justify-center '>
-          <img className="w-[300px] md:w-[450px] 2xl:w-[750px] " src={Logo} alt="pick-user" />
+        <div className='h-full mx-auto max-w-[1000px] md:mx-auto md:px-8 md:flex md:flex-col md:justify-center items-center '>
+          <img className="w-[300px] md:w-[850px] 2xl:w-[750px] " src={Logo} alt="pick-user" />
         </div>
       </div>
       <div className='max-w-3xl mx-auto md:pl-20 md:pr-8 px-8 flex flex-col justify-center text-start h-full mt-5'>
