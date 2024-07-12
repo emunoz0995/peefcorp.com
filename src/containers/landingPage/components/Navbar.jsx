@@ -136,7 +136,7 @@ const Navbar = () => {
               Instaladores <FaCloudDownloadAlt size={30} />
             </a>
           </li>
-          <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-sky-500'>
+          <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-gray-500'>
             <a
               className='flex justify-between items-center w-full px-3 text-white' target="_blank"
               href="https://mega.nz/folder/z6ZV1AKR#Jzyh7scGxFrzh4VdXs0cnA"
