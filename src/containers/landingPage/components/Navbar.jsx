@@ -7,6 +7,7 @@ import {
   FaWhatsapp,
   FaCloudDownloadAlt,
   FaUserAlt,
+  FaDownload,
 
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -52,11 +53,11 @@ const Navbar = () => {
             Proyectos
           </Link>
         </li>
-        <li className='hover:text-green-500 duration-300 flex h-full items-center cursor-pointer ml-3 mr-[-30px]' onClick={() => handleNavigate()}>
+        {/* <li className='hover:text-green-500 duration-300 flex h-full items-center cursor-pointer ml-3 mr-[-30px]' onClick={() => handleNavigate()}>
             <div className='flex gap-2 p-3 items-center  hover:bg-gray-300/20 border h-8 rounded-xl shadow-sm shadow-gray-300'>
              Iniciar sesión
             </div>
-        </li>
+        </li> */}
         {/* <li className='hover:text-green-500 duration-300 cursor-pointer'>
           <Link className='flex gap-1 pt-4' to='contact' smooth={true} duration={500}>
             Contactanos
@@ -133,6 +134,14 @@ const Navbar = () => {
               href={info.contac[1].url}
             >
               Instaladores <FaCloudDownloadAlt size={30} />
+            </a>
+          </li>
+          <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-sky-500'>
+            <a
+              className='flex justify-between items-center w-full px-3 text-white' target="_blank"
+              href="https://mega.nz/folder/z6ZV1AKR#Jzyh7scGxFrzh4VdXs0cnA"
+            >
+              Peef <FaDownload size={30} />
             </a>
           </li>
         </ul>
